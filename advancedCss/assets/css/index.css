@@ -1,0 +1,62 @@
+/* 
+COLORS:
+	Brand: #D1C059;
+	Dark: #0D1718;
+	light: #ffffff;
+	gredential: #fe5e63 + #fe9866;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.brand-color {
+	color: #D1C059;
+}
+
+.header {
+  color: #fff;
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.01)
+    ),
+    url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.logo-box {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+
+.logo {
+	height: 80px;
+}
+
+.text-box {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+	font-size: 55px;
+	font-weight: 800;
+}
+
+.heading-primary-brand {
+	font-size: 55px;
+	font-weight: 800;
+	color: #D1C059;
+}
